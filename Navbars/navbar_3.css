@@ -7,11 +7,19 @@ body {
 
 nav {
     background-color: #1f2c38;
-    padding: 5px 20px;
+    padding: 10px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    border-radius: 50px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
 }
 
 .logo img {
@@ -23,7 +31,6 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    text-indent: 20px;
     margin: 0;
     padding: 0;
 }
@@ -35,8 +42,8 @@ nav li {
 
 nav li a {
     color: white;
-    padding-right: 75px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
+    padding: 10px 20px;
 }
