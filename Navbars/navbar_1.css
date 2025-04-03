@@ -2,42 +2,44 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+   
 }
-
 nav {
     background-color: #1f2c38;
-    padding: 10px 20px;
+    padding: 10px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
-    width: 100%;
+    position: relative;
 }
 
 .logo {
     display: flex;
     align-items: center;
+    position: absolute;
+
 }
 
 .logo img {
     height: auto;
     width: 125px;
-    display: block;
+    display: inline-block;
 }
+
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    margin: 0 auto; 
+    width: 100%; 
     padding: 0;
-    text-indent: 50px; 
+    margin: 0;
+    text-align: center;
 }
 
 nav li {
-    display: flex;
-    align-items: center;
+    display: inline-block;
+    padding: 0 20px; 
 }
 
 nav li a {
@@ -45,5 +47,5 @@ nav li a {
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    padding: 10px;
 }
+

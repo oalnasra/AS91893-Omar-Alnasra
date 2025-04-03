@@ -1,0 +1,57 @@
+body {
+    font-family:Helvetica;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav {
+    background-color: #1f2c38;
+    padding: 10px 5%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.logo img {
+    height: auto;
+    width: 125px;
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+header {
+    font-size: 40px;
+}
+.paper_plane {
+    
+
+}
