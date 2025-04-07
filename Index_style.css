@@ -16,7 +16,7 @@ body, html {
 /* Navigation */
 nav {
     background-color: #1f2c38;
-    padding: 10px 1%;
+    padding: 10px 0;
     overflow-y: hidden;
     display: flex; 
     align-items: center;
@@ -69,4 +69,24 @@ header h1 {
     color: #1f2c38;
     margin: 0;
 }
+
+/* Page Container where all elements are inside of*/
+.page-container{
+    position: relative;
+    min-height: 100%;
+}
+
+/* Styling for Background image */
+.background-image {
+    position: absolute; /* To stop Background image being placed above the header  */
+    display: block;
+    width: 120vw;
+    margin: -10vw;
+}
+
+.content {
+    position: relative;
+    padding-bottom: 50px; /* Add padding to ensure there's space at bottom */
+}
+
 
