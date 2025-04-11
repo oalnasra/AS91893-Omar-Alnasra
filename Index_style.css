@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Libre-Caslon-Text';
     src: url('Fonts/LibreCaslonText-Regular.ttf') format('truetype');
-}
-
+    }
+    
 body, html {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -12,29 +12,29 @@ body, html {
     overflow-x: hidden; /* To stop scrolling from */
     background-color: #FFF8E7;
 }
-
+    
 /* Navigation */
 nav {
     background-color: #1f2c38;
-    padding: 10px 0;
+    padding: 10px 1%;
     overflow-y: hidden;
-    display: flex; 
+    display: flex;
     align-items: center;
     position: relative; /* To ensure that when logo uses position absolute it is positioned to the nearest positioned element */
 }
-
+    
 .logo {
     display: flex; /* To ensure that the logo is properly aligned vertically and horizontally. */
     align-items: center;
     position: absolute; /* To put it above other elements */
 }
-
+    
 .logo img {
     height: auto;
     width: 125px;
     display: block;
 }
-
+    
 nav ul {
     list-style-type: none;
     display: flex;
@@ -45,48 +45,104 @@ nav ul {
     margin: 0;
     text-align: center;
 }
-
+    
 nav li {
-    display: inline-block
+    display: inline-block;
     padding: 0 20px;
 }
-
+    
 nav li a {
-    color: white; 
+    color: white;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
 }
-
-header { 
+    
+header {
     padding: 20px; /* Add some padding for visual spacing */
-    font-family:  'Libre-Caslon-Text';  
+    font-family: 'Libre-Caslon-Text';
 }
-
+    
 header h1 {
-    font-size: 60px; /*  The big font-size is used to ensure that users who may have impairments can see it*/
+    font-size: 100px; /* The big font-size is used to ensure that users who may have impairments can see it*/
     color: #1f2c38;
     margin: 0;
 }
-
+    
 /* Page Container where all elements are inside of*/
 .page-container{
     position: relative;
     min-height: 100%;
 }
-
-/* Styling for Background image */
+    
+    /* Styling for Background image */
 .background-image {
-    position: absolute; /* To stop Background image being placed above the header  */
+    position: absolute; /* To stop Background image being placed above the header */
     display: block;
     width: 120vw;
     margin: -10vw;
 }
-
+    
 .content {
     position: relative;
     padding-bottom: 50px; /* Add padding to ensure there's space at bottom */
 }
+    
+.intro-text {
+    position: absolute;
+    width: 100%;
+    padding: 40px 20px;
+    top: 181vh;
+    left: 0;
+    font-family: 'Libre-Caslon-Text';
+}
+    
+.intro-text h2 {
+    font-size: 4.9em;
+    color: #FFF8E7;
+    position: relative;
+    text-align: left;   
+    margin: 0;
+    padding-left: 75px;
+    max-width: 100%;
+}
+    
+.intro-text p {
+    font-size: 2.5em;
+    color: #FFF8E7;
+    line-height: 95px;
+    text-align: center;
+    float: right;
+    width: 30%;
+    padding-right: 150px;
+    padding-top: 45px;
+    margin: 0;
+}
+    
+.box {
+    border-radius: 15px;
+    box-sizing: border-box;
+    float: right;
+    margin: 25px;
+    background-color: #658761;
+    width: 40%;
+    margin-left: 65px;
+    margin-right: 3.85%;
+    padding: 60px;
+}
 
+.intro-text_p {
+    font-size: 2.5em;
+    color: #FFF8E7;
+    line-height: 95px;
+    text-align: center;
+    float: right;
+    width: 30%;
+    padding-right: 150px;
+    padding-top: 45px;
+    margin: 0;
+   
 
+}
+    
