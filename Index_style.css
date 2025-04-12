@@ -120,27 +120,38 @@ header h1 {
     padding-top: 45px;
     margin: 0;
 }
+
 .description {
     clear: both;
     width: 100%;
     position: absolute; /* Changed from relative */
-    bottom: 4em; /* Fixed position from top of viewport, adjust as needed */
-    left: 0;
+    bottom: 4em; /* Fixed position from bottom */
+
   }
 .description p {
     font-size: 3em;
     color: #FFF8E7;
     float: left;
-    width: 30%;
+    width: 90%;
     padding-top: 0;
-    padding-left: 95px;
+  
     font-family: 'Libre-Caslon-Text';
     margin-top: 0;
     text-align: left;
     margin-left: 0;
 }
-  
-
+.box-1b {
+    border-radius: 15px;
+    box-sizing: border-box;
+    float: left;
+    margin: 2px;
+    background-color: #658761;
+    width: 50%;
+    height: auto;
+    min-height: 20vh;
+    margin-left: 2em;
+    padding: 60px;
+}
     
 .box-1a {
     border-radius: 15px;
