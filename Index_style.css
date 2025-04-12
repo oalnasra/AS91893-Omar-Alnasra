@@ -94,7 +94,7 @@ header h1 {
     position: absolute;
     width: 100%;
     padding: 40px 20px;
-    top: 181vh;
+    top: 165vh;
     left: 0;
     font-family: 'Libre-Caslon-Text';
 }
@@ -115,19 +115,19 @@ header h1 {
     line-height: 95px;
     text-align: center;
     float: right;
-    width: 30%;
-    padding-right: 150px;
+    width: 90%;
+    padding-right: 55px;
     padding-top: 45px;
     margin: 0;
 }
 .description {
     clear: both;
     width: 100%;
-    position: relative;
-    transform: translateY(-65px);
+    position: absolute; /* Changed from relative */
+    bottom: 4em; /* Fixed position from top of viewport, adjust as needed */
+    left: 0;
   }
-  
-  .description p {
+.description p {
     font-size: 3em;
     color: #FFF8E7;
     float: left;
@@ -138,11 +138,11 @@ header h1 {
     margin-top: 0;
     text-align: left;
     margin-left: 0;
-  }
+}
   
 
     
-.box {
+.box-1a {
     border-radius: 15px;
     box-sizing: border-box;
     float: right;
@@ -153,4 +153,6 @@ header h1 {
     margin-right: 3.85%;
     padding: 60px;
 }
+
+
 
