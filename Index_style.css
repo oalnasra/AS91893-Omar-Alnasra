@@ -124,8 +124,8 @@
   .description {
       clear: both;
       width: 100%;
-      position: absolute; /* Changed from relative */
-      bottom: 4em; /* Fixed position from bottom */
+      position: absolute; 
+      bottom: 4em;
   
     }
   .description p {
