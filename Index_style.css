@@ -187,3 +187,66 @@
       padding: 60px;
       margin-top: 0; 
   }
+
+  .last-text {
+    position: absolute;
+    width: 100%;
+    padding: 40px 20px;
+    top: 235vh;
+    left: 0;
+    font-family: 'Libre-Caslon-Text';
+}
+
+  .japanese-text {
+    float: right;
+    margin-top: 28.5em;
+    position: absolute;
+    right: 0;
+    padding-right: 17.5em;
+  }
+  .japanese-text h2 {
+    font-size: 10em;
+    rotate: -8.5deg;    
+    color: #1f2c38;
+  }
+
+  .english-text {
+    float: left;
+    position: absolute;
+    margin-top:47em;
+    z-index: 1;
+  }
+
+  .english-text h2 {
+    font-size: 7.5em;
+    rotate: -3.5deg;
+    color: #1f2c38;
+  }
+
+ 
+  .box-2a {
+    box-sizing: border-box;
+    margin: 25px 0 0 35px;
+    background-color: #F0BE49;
+    width: 45%; /* You can adjust width as needed */
+    height: 65em; /* Increase this value to make the box taller - adjust as needed */
+    padding: 0; /* Remove padding so image touches edges */
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 55em;
+    rotate: -5.5deg;
+    z-index: 0;
+    overflow: hidden; /* Ensures the image respects rounded corners */
+  }
+  
+  .last-text img {
+    display: block;
+    width: 100%; /* Makes image fill container width */
+    height: 100%; /* Makes image fill container height */
+    max-width: none;
+    max-height: none;
+    position: relative;
+    z-index: 2;
+    object-fit: cover; /* This ensures the image covers the entire container */
+    border-radius: 15px;
+  }
