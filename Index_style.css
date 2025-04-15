@@ -65,7 +65,7 @@ header {
 }
 
 header h1 {
-    font-size: 100px; /* The big font-size is used to ensure that users who may have impairments can see it*/
+    font-size: 175px; /* The big font-size is used to ensure that users who may have impairments can see it*/
     color: #1f2c38;
     margin: 0;
 }
@@ -74,8 +74,9 @@ header h1 {
     float: right;
     width: 475px;
     height: auto;
-    margin-top: 25em;
-    padding-right: 15em;
+    margin-top: 5em;
+    rotate: -8.5deg;
+    padding-right: 10em;
 }
 
 #paper-plane img {
@@ -256,7 +257,7 @@ header h1 {
 .box-2a {
     box-sizing: border-box;
     margin: 25px;
-    background-color: #F0BE49;
+    background-color: #f3b73f;
     width: 45%; 
     height: 65em; 
     margin-left: 75px;
@@ -294,14 +295,12 @@ header h1 {
 .box-2c {
     box-sizing: border-box;
     background-color:#CB883A;
-    width: 46%;
+    width: 46.5%;
     padding: 15px;
     border-radius: 15px;
-    margin-left: 150px;
-    margin-top: 20px; 
-    clear: left; 
+    margin-left: 138px;  
     position: relative;
-    margin-top: 125em;
+    margin-top: 121em;
     rotate: -5.5deg;
     z-index: 1;
 }
