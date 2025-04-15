@@ -24,7 +24,7 @@ nav {
 }
 
 .logo {
-    display: flex; /* To ensure that the logo is properly aligned vertically and horizontally. */
+    display: flex; /* Ensures logo is properly aligned */
     align-items: center;
     position: absolute; /* To put it above other elements */
 }
@@ -83,6 +83,7 @@ header h1 {
     width: 120vw;
     margin: -10vw;
 }
+
 
 .content {
     position: relative;
@@ -240,10 +241,11 @@ header h1 {
 
 .box-2a {
     box-sizing: border-box;
-    margin: 25px 0 0 35px;
+    margin: 25px;
     background-color: #F0BE49;
     width: 45%; 
     height: 65em; 
+    margin-left: 75px;
     padding: 0; 
     border-radius: 15px;
     position: absolute;
@@ -257,7 +259,7 @@ header h1 {
     border-radius: 15px;
     box-sizing: border-box;
     background-color: #AC5045; 
-    width: 40%;
+    width: 35%;
     padding: 40px;
     margin-left: auto;
     margin-right:10em;
@@ -274,4 +276,28 @@ header h1 {
     line-height: 1.5em;
     margin: 0;
 }
-
+.box-2c {
+    box-sizing: border-box;
+    background-color:#CB883A;
+    width: 46%;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-top: 20px; 
+    clear: left; 
+    position: relative;
+    margin-top: 125em;
+    rotate: -5.5deg;
+    z-index: 1;
+}
+  
+  .box-2c p {
+    font-size: 4em;
+    width: 65%;
+    padding-left: 0.5em;
+    padding: 0.5em;
+    color: #FFF8E7;
+    font-family: 'Libre-Caslon-Text';
+    text-align: left;  
+    margin: 0;
+}
