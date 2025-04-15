@@ -72,7 +72,7 @@ header h1 {
 
 #paper-plane {
     float: right;
-    width: 500px;
+    width: 475px;
     height: auto;
     margin-top: 25em;
     padding-right: 15em;
@@ -130,7 +130,7 @@ header h1 {
     text-align: center;
     float: right;
     width: 90%;
-    padding-right: 55px;
+    padding-right: 35px;
     padding-top: 45px;
     margin: 0;
 }
@@ -288,6 +288,7 @@ header h1 {
     color: #FFF8E7;
     font-family: 'Libre-Caslon-Text';
     line-height: 1.5em;
+    text-align: center;
     margin: 0;
 }
 .box-2c {
