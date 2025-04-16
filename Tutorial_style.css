@@ -173,3 +173,16 @@ main .tutorials-container {
     margin-bottom: 30em;
 }
 
+.paper-crane {
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.paper-crane h2 {
+    font-family: 'Libre-Caslon-Text';
+    color: #1f2c38;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 4.9em;
+}
