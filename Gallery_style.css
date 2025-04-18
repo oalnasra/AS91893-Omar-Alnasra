@@ -142,9 +142,25 @@ header h1 {
     text-decoration: underline;
     text-decoration-color:#FFC943;
     text-decoration-thickness: 15px;
+    text-decoration-skip-ink:none    ;
 }
 
 .image-spacer {
     position: relative;
     height: 15em;
 }
+
+.faq-section {
+    color:#FFF8E7 ;
+    font-family: 'Libre-Caslon-Text';
+    position: relative;
+    z-index: 1;
+    margin-top: 45em;
+    justify-content: center;
+  }
+  
+  .faq-section h2 {
+    font-size: 125px;
+    margin-top: 7em;
+    text-align: center;
+  }
