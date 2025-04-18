@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Gallery_style.css">
-    <title>Origeemu Template Page</title>
+    <title>Origeemu User Gallery Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </head>
 <body>
   <div class="page-container">
@@ -23,6 +26,32 @@
     <header>
       <h1>User Gallery</h1>
     </header>
+    <section class="most-popular">
+      <h2>Most Popular</h2>
+      <div class="gallery-grid">
+        <a href="Resources/Yoda-Origami.png" data-fancybox="user-gallery" data-caption="Yoda Origami by Orestigami">
+          <img src="Resources/Yoda-Origami.png" alt="yodi-origami"/>
+        </a>
+        <a href="Resources/Monkey-Origami.png" data-fancybox="user-gallery" data-caption="Monkey Origami by Joseph Wu">
+          <img src="Resources/Monkey-Origami.png" alt="monkey-origami"/>
+        </a>
+        <div class="gallery-spacer"></div>
+        <a href="Resources/Pegasus-Origami.png" data-fancybox="user-gallery" data-caption="Pegasus Origami by Orestigami">
+          <img src="Resources/Pegasus-Origami.png" alt="pegasus-origami"/>
+        </a>
+        <a href="Resources/Dragon-Origami.png" data-fancybox="user-gallery" data-caption="Dragon Origami by LA MM">
+          <img src="Resources/Dragon-Origami.png" alt="dragon-origami"/>
+        </a>
+      </div>
+    </section>
+    <section class="recently-added">
+      <h2>Recently Added</h2>
+    </section>
+    <script>
+      Fancybox.bind('[data-fancybox]', {
+        
+      });
+    </script>
   
   </div>
 </body>
