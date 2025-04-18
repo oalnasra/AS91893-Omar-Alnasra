@@ -136,11 +136,15 @@ header h1 {
     z-index: 1;
 }
 .recently-added h2 {
-    font-size: 60px; /* Adjust as needed to match the size */
-    color: #1f2c38; /* Dark teal color, same as "Most Popular" */
+    font-size: 60px; 
+    color: #1f2c38; 
     margin-top: 250px;
     text-decoration: underline;
     text-decoration-color:#FFC943;
     text-decoration-thickness: 15px;
 }
 
+.image-spacer {
+    position: relative;
+    height: 15em;
+}
