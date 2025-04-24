@@ -1,6 +1,6 @@
-@font-face {
-    font-family: 'Libre-Caslon-Text';
-    src: url('Fonts/LibreCaslonText-Regular.ttf') format('truetype');
+.libre-caslon-text-regular {
+    font-family: "Libre Caslon Text", serif;
+    font-style: normal;
 }
 
 body, html {
@@ -61,7 +61,7 @@ nav li a {
 
 header { 
     padding: 20px; /* Add some padding for visual spacing */
-    font-family:  'Libre-Caslon-Text';  
+    font-family:  "Libre Caslon Text", serif;  
 }
 
 header h1 {
