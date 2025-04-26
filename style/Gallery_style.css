@@ -74,6 +74,7 @@ header h1 {
     margin: 0;
     text-align: center;
 }
+
 .background-image {
     position: absolute;
     width: 160vw; 
@@ -107,13 +108,13 @@ header h1 {
     color: #1f2c38; 
     margin-top: 0; 
 }
+
 .gallery-grid {
     column-count: 2;
-    column-gap: 5px;
-    
-  }
+    column-gap: 5px; 
+}
   
-  .gallery-grid a {
+.gallery-grid a {
     display: inline-block;
     width: 100%;
     margin-bottom: 10px; 
@@ -131,15 +132,14 @@ header h1 {
     object-fit: contain; 
 }
 
-
-
-.gallery-spacer {
+.pegasus-spacer {
     display: block;
     width: 100%;
     height: 30em;
     margin: 0;
     padding: 0;
 }
+
 .recently-added {
     padding: 50px;  
     text-align: left;
@@ -157,7 +157,7 @@ header h1 {
     text-decoration-skip-ink:none;
 }
 
-.image-spacer {
+.llama-spacer {
     position: relative;
     height: 15em;
 }
