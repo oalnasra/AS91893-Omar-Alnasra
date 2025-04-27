@@ -100,7 +100,6 @@ header h1 {
     margin: -10vw;
 }
 
-
 .content {
     position: relative;
     padding-bottom: 50px; /* Add padding to ensure there's space at bottom */
@@ -162,7 +161,7 @@ header h1 {
     max-height: 100%; /* Ensures it doesn't exceed the height of the section */
     width: auto; /* Allows for the width to adjust based on the image's size */
     height: auto; /* Allows for the height to adjust based on the image's size */
-    border-radius: 15px;
+    border-radius: 15px; /* To round off the corners of the box */
     position: relative;
     z-index: 2; /* ensures that this image is ontop of other elements */
     object-fit: contain; /* Ensures the image fits within e.g. Box without stretching */
@@ -293,6 +292,7 @@ header h1 {
     text-align: center; /* To align the text to the center */
     margin: 0; /* Ensures no margin around the text */
 }
+
 .caption-box-2 {
     box-sizing: border-box;  /* Makes sure the overall padding nor borders cause any issues with the boxes sizing */
     background-color:#CB883A; /* Used to make the colour of the box */

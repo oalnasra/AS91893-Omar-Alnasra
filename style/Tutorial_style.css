@@ -87,6 +87,7 @@ main .tutorials-container {
 .paper-scorpion .bottom-card-row {
     margin-top: -300px;
 }
+
 .paper-scorpion h2 {
     font-family:"Libre Caslon Text", serif;
     color: #1f2c38;
@@ -107,12 +108,12 @@ main .tutorials-container {
     padding: 0; 
     width: 100%;
 }
+
 .banner-image img {
     display: block; /* Ensures that it displays the image as a block element */
     width: 100%; 
     height: auto; 
 }
-
 
 .tutorial-steps img {
     width: 50%;
@@ -121,6 +122,7 @@ main .tutorials-container {
     margin: 0; /* To ensure there is no extra space around the image */
     padding: 0; /* To ensure there is no space within the image */
 }
+
 .tutorial-steps {
     display: flex;
     flex-direction: column; /* To make the elements within the section to align vertically in a column */
@@ -182,7 +184,6 @@ main .tutorials-container {
     height: auto;
 }
 
-
 .paper-scorpion .card-row {
     margin-bottom: 20em; 
 }
@@ -199,9 +200,11 @@ main .tutorials-container {
 .paper-flower .bottom-card-row {
     margin-top: -450px;
 }
+
 .paper-crane .bottom-card-row:nth-child(2) img:nth-child(1) {
     margin-top: 5px;
 }
+
 .paper-crane .bottom-card-row {
     margin-top: 20px; 
 }
@@ -219,5 +222,5 @@ main .tutorials-container {
     padding-left: 20px;
     text-align: left; /* To align the text to the left */
     font-size: 4.9em; /* Em used to ensure that the font-size will look relatively the same on different browsers */
-    
+
 }
