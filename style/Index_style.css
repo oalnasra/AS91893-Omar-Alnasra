@@ -1,5 +1,5 @@
 .libre-caslon-text-regular {
-    font-family: "Libre Caslon Text", serif;
+    font-family: "Libre Caslon Text", serif; /* applies a name on the font used */
     font-weight: 400;
     font-style: normal;
   }
@@ -11,7 +11,7 @@ body, html {
     width: 100%;
     height: 100%;
     overflow-x: hidden; /* To stop scrolling from x-axis*/
-    background-color: #FFF8E7;
+    background-color: #FFF8E7; /* For Debugging Purposes */
 }
 
 /* Navigation */
@@ -53,9 +53,9 @@ nav li {
 }
 
 nav li a {
-    color: white;
+    color: white; /* For navigation text colour */
     text-decoration: none;
-    font-size: 20px;
+    font-size: 20px; /* big font-size used to ensure that it is readable for users who may have impairments */
     font-weight: bold;
     padding: 10px;
 }
@@ -105,32 +105,32 @@ header h1 {
     position: relative;
     padding-bottom: 50px; /* Add padding to ensure there's space at bottom */
 }
-
+/* Introductionary Section of Page */
 .origami-introduction {
     position: absolute;
     width: 100%;
-    padding: 40px 20px;
-    top: 165vh;
+    padding: 40px 20px; /* to ensure that the elements within the section have equal spacing on each side. */
+    top: 165vh; /* Pushes down the elements and section the right position */
     left: 0;
     font-family: "Libre Caslon Text", serif;
 }
 
 .origami-introduction h2 {
-    font-size: 4.9em;
+    font-size: 4.9em; /* Em used to ensure that the font-size will look relatively the same on different browsers */
     color: #FFF8E7;
-    position: relative;
-    text-align: left;
-    margin: 0;
-    padding-left: 75px;
-    max-width: 100%;
+    position: relative; /* Positions the header to the nearest elements */
+    text-align: left; 
+    margin: 0; /* No margins */
+    padding-left: 75px; /* Pushes the header text to the right position inline with other elements. */
+    max-width: 100%; /* Ensures it doesn't exceed the width of the section */
 }
 
 .origami-introduction p {
-    font-size: 2.5em;
-    color: #FFF8E7;
-    line-height: 95px;
-    text-align: center;
-    float: right;
+    font-size: 2.5em; /* Em used to ensure that the font-size will look relatively the same on different browsers */
+    color: #FFF8E7; 
+    line-height: 95px; /* To set a specfic height for each line of text */
+    text-align: center; /* Centers text within the box */
+    float: right; /* Pushes text to the right */
     width: 90%;
     padding-right: 35px;
     padding-top: 45px;
@@ -140,180 +140,179 @@ header h1 {
 .stallion-caption {
     clear: both;
     width: 100%;
-    position: absolute;
-    bottom: 4em;
+    position: absolute; /* To allow for specfic placement. */
+    bottom: 4em; /* Positions the bottom of the text 4em from the bottom of the nearest element */
 }
 
 .stallion-caption p {
-    font-size: 3em;
+    font-size: 3em; /* Em used to ensure that the font-size will look relatively the same on different browsers */
     color: #FFF8E7;
-    float: left;
+    float: left; /* Pushes text to the left side */
     width: 90%;
-    padding-top: 0;
+    padding-top: 0; /* To get rid of the padding on the top */
     font-family: "Libre Caslon Text", serif;
     margin-top: 0;
-    text-align: left;
+    text-align: left; /* Aligns text to the left */
     margin-left: 0;
 }
 
 #Origami-Stallion {
     display: block;
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
+    max-width: 100%; /* Ensures it doesn't exceed the width of the section */
+    max-height: 100%; /* Ensures it doesn't exceed the height of the section */
+    width: auto; /* Allows for the width to adjust based on the image's size */
+    height: auto; /* Allows for the height to adjust based on the image's size */
     border-radius: 15px;
     position: relative;
-    z-index: 2;
-    object-fit: contain;
+    z-index: 2; /* ensures that this image is ontop of other elements */
+    object-fit: contain; /* Ensures the image fits within e.g. Box without stretching */
 }
 
 .intro-text-box {
-    border-radius: 15px;
-    box-sizing: border-box;
-    float: right;
+    border-radius: 15px; /* To round off the corners of the box */
+    box-sizing: border-box; /* Makes sure the overall padding nor borders cause any issues with the boxes sizing */
+    float: right; /* To push the box to the right */
     margin: 25px;
-    background-color: #658761;
+    background-color: #658761; /* Used to make the colour of the box */
     width: 40%;
     margin-left: 65px;
     margin-right: 3.85%;
-    padding: 60px;
-    margin-top: 0;
+    padding: 60px; /* To create spacing within the box around the text for equal spacing. */
+    margin-top: 0; /* To get rid of any margins above the box */
 }
 
 .caption-box-1 {
     border-radius: 15px;
-    box-sizing: border-box;
-    float: left;
+    box-sizing: border-box; /* Makes sure the overall padding nor borders cause any issues with the boxes sizing */
+    float: left; /* To push the box to the left */
     margin: 2px;
-    background-color: #AC5045;
+    background-color: #AC5045; /* Used to make the colour of the box */
     width: 49%;
-    margin-left: 2em;
-    padding: 60px;
+    margin-left: 2em; /* So it pushes the box more to the right */
+    padding: 60px; /*  To create spacing within the box around the text for equal spacing. */
 }
 
-
 .stallion-box {
-    border-radius: 15px;
-    box-sizing: border-box;
-    float: left;
+    border-radius: 15px; /* To round off the corners of the box */
+    box-sizing: border-box; /* Makes sure the overall padding nor borders cause any issues with the boxes sizing */
+    float: left; /*  Pushes the box to the left*/
     margin: 2px;
     background-color: #DFA05D;
     width: 50%;
-    height: 650px;
-    margin-left: 2em;
+    height: 650px; /* Ensures that the box is a specific height */
+    margin-left: 2em; /* To push the box more to the right */
     padding: 60px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* To align elements within the box horizontally */
+    align-items: center; /* To align elements within the box vertically */
 }
-
+/* History of Origami Section */
 .origami-history {
-    position: absolute;
-    width: 100%;
-    padding: 40px 20px;
-    top: 235vh;
+    position: absolute; /* To allow for specfic placement. */
+    width: 100%; 
+    padding: 40px 20px; /* To create spacing around the elements */
+    top: 235vh; /* Pushes down the elements and section the right position */
     left: 0;
     font-family: "Libre Caslon Text", serif;
 }
 
 .japanese-origeemu-header {
-    float: right;
-    margin-top: 28.5em;
-    position: absolute;
+    float: right; /* Allows for the element to be pushed right */
+    margin-top: 28.5em; /* To create spacing above the element so that it pushes it down */
+    position: absolute; /* To allow for specific placement */
     right: 0;
-    padding-right: 17.5em;
+    padding-right: 17.5em; /* Ensures that there is spacing on the right so the text isn't cut off and is in the right position */
 }
 
 .japanese-origeemu-header h2 {
-    font-size: 10em;
-    rotate: -8.5deg;
-    color: #1f2c38;
+    font-size: 10em; /* Em used to ensure that the font-size will look relatively the same on different browsers */
+    rotate: -8.5deg; /* To make the header text be rotated -8.5 degrees */
+    color: #1f2c38; /* For header text colour */
 }
 
 .history-header {
-    float: left;
-    position: absolute;
+    float: left; /* Allows for the element to be pushed to the left */
+    position: absolute; /* Allows for specfic placement for this element */
     margin-top: 47em;
-    z-index: 1;
+    z-index: 1; /* Ensures that this image is ontop of other elements */
 }
 
 .history-header h2 {
-    font-size: 7.5em;
-    rotate: -3.5deg;
+    font-size: 7.5em; /* Em used to ensure that the font-size will look relatively the same on different browsers */
+    rotate: -3.5deg; /* To ensure that the header text is rotated -3.5 degrees */
     color: #1f2c38;
 }
 
 .origami-history img {
-    display: block;
+    display: block; /* To display an element in a block element, taking up its full width */
     width: 100%; 
     height: 100%; 
     max-width: none;
     max-height: none;
-    position: relative;
-    z-index: 2;
-    object-fit: cover; 
-    border-radius: 15px;
+    position: relative; /* To position the image to the nearest elements */
+    z-index: 2; /* Ensures that this image is ontop of other elements */
+    object-fit: cover; /* To allow the image to fill in the entire space even if it stretches */
+    border-radius: 15px; /* To round off the corners of the box */
 }
 
 .akira-photo-box {
-    box-sizing: border-box;
+    box-sizing: border-box; /* Makes sure the overall padding nor borders cause any issues with the boxes sizing */
     margin: 25px;
-    background-color: #f3b73f;
+    background-color: #f3b73f; /* Used to make the colour of the box */
     width: 45%; 
-    height: 65em; 
-    margin-left: 75px;
+    height: 65em; /* Ensures that the box is a specific height */
+    margin-left: 75px; /* To push the box more to the right */
     padding: 0; 
-    border-radius: 15px;
-    position: absolute;
+    border-radius: 15px; /* To round off the corners of the box */
+    position: absolute; /* To allow for specfic placement of an element */
     margin-top: 55em;
-    rotate: -5.5deg;
-    z-index: 0;
-    overflow: hidden; 
+    rotate: -5.5deg; /* To make the box rotate -5.5 degrees */
+    z-index: 0; /* To ensure that the box is positioned behind other elements even if they overlap */
+    overflow: hidden; /* To ensure that any content within the box is cut off */
 }
 
 .history-text-box {
-    border-radius: 15px;
-    box-sizing: border-box;
-    background-color: #AC5045; 
+    border-radius: 15px; /* To round off the corners of the box */
+    box-sizing: border-box; /* Makes sure the overall padding nor borders cause any issues with the boxes sizing */
+    background-color: #AC5045; /* Used to make the colour of the box */
     width: 35%;
-    padding: 40px;
-    margin-left: auto;
-    margin-right:10em;
-    position: absolute;
+    padding: 40px; /* To create spacing within the box */
+    margin-left: auto; /* Ensures that the margin left is automatically set to push the box right */
+    margin-right:10em; /* To push the box 10em more to the left */
+    position: absolute; /* To allow for specfic placement of the box */
     right: 0;
     margin-top: 60em; 
-    z-index: 1;
+    z-index: 1; /* Ensures that this image is ontop of other elements */
 }
 
 .origami-history p {
-    font-size: 2.5em;
-    color: #FFF8E7;
+    font-size: 2.5em; /* Em used to ensure that the font-size will look relatively the same on different browsers */
+    color: #FFF8E7; 
     font-family: "Libre Caslon Text", serif;
-    line-height: 1.5em;
-    text-align: center;
-    margin: 0;
+    line-height: 1.5em; /* To set a specfic height for each line of text */
+    text-align: center; /* To align the text to the center */
+    margin: 0; /* Ensures no margin around the text */
 }
 .caption-box-2 {
-    box-sizing: border-box;
-    background-color:#CB883A;
+    box-sizing: border-box;  /* Makes sure the overall padding nor borders cause any issues with the boxes sizing */
+    background-color:#CB883A; /* Used to make the colour of the box */
     width: 46.5%;
-    padding: 15px;
-    border-radius: 15px;
-    margin-left: 138px;  
-    position: relative;
-    margin-top: 121em;
-    rotate: -5.5deg;
-    z-index: 1;
+    padding: 15px; /* To create spacing within the box */
+    border-radius: 15px; /* To round off the corners of the box */
+    margin-left: 138px;  /* To push the box more left 138px */
+    position: relative; /* Positions the box to the nearest elements */
+    margin-top: 121em; /* Pushes the box down 121em */
+    rotate: -5.5deg; /* To make the box rotate -5.5 degrees */
+    z-index: 1; /* Ensures that this image is ontop of other elements */
 }
   
 .caption-box-2 p {
-    font-size: 4em;
+    font-size: 4em; /* Em used to ensure that the font-size will look relatively the same on different browsers */
     width: 65%;
-    padding-left: 0.5em;
+    padding-left: 0.5em; /* To push the text more to the left by 0.5em */
     padding: 0.5em;
     color: #FFF8E7;
     font-family: "Libre Caslon Text", serif;
-    text-align: left;  
-    margin: 0;
+    text-align: left;  /* To align the text to the left */
+    margin: 0; /* Ensures no extra spacing around the text */
 }
