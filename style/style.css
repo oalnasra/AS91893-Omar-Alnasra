@@ -511,6 +511,7 @@ main .tutorials-container {
 
 .gallery-background-image {
     position: absolute;
+    background-color: #1D313C; /* For Debugging Purposes */
     width: 160vw; /* To make the background image wider to ensure that it takes up the full width of the website */
     height: auto; /* To make the height adjust automatically to maintain the image's aspect ratio */
     min-height: 400em; /* Ensures a minimum height for the image */
@@ -523,7 +524,6 @@ main .tutorials-container {
 .gal-container {
     position: relative; 
     margin: 0;
-    background-color: #1D313C;
     min-height: 100vh;
 }
 
